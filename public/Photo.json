@@ -1,0 +1,50 @@
+[
+    {
+      "id": "1",
+      "index": 0,
+      "price": "$1,012.34",
+      "picture": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2lsZGxpZmV8ZW58MHx8MHx8&w=1000&q=80",
+      "name": "Joy Wilcox",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+    },
+    {
+      "id": "2",
+      "index": 1,
+      "price": "$3,104.85",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiszk0lrHPDH3eN2TNUU3cdY1roV7d2ySPoA&usqp=CAU",
+      "name": "Wade Juarez",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+    },
+    {
+      "id": "3",
+      "index": 2,
+      "price": "$3,497.78",
+      "picture": "https://i.ytimg.com/vi/ip6Vn24FwBk/maxresdefault.jpg",
+      "name": "Branch Hamilton",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+    },
+    {
+      "id": "4",
+      "index": 3,
+      "price": "$2,434.02",
+      "picture": "https://webneel.com/daily/sites/default/files/images/daily/02-2013/10-best-wildlife-photography.jpg",
+      "name": "Johns Orr",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+    },
+    {
+      "id": "5",
+      "index": 4,
+      "price": "$2,375.58",
+      "picture": "https://images.pexels.com/photos/459449/pexels-photo-459449.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Duke Kane",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+    },
+    {
+      "id": "6",
+      "index": 5,
+      "price": "$3,728.11",
+      "picture": "https://cdn2.outdoorphotographer.com/2020/08/Scintillating_Solutions_5.jpg",
+      "name": "Finley Perkins",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+    }
+  ]

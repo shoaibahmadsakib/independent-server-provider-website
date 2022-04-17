@@ -9,6 +9,9 @@ import Product from "./Pages/Product/Product";
 import Register from "./Pages/Register/Register";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Blog from "./Pages/Blog/Blog";
+import ErrorPage from "./Pages/ErrorPage";
+import Footer from "./components/Footer/Footer";
+import CardDetails from "./components/CardCompo/CardDetails";
 
 function App() {
   return (
@@ -23,7 +26,12 @@ function App() {
         <Route path="/checkout" element={<Checkout />}></Route>
         <Route path="/product" element={<Product />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
+
+        <Route path="/card/:cardDetails" element={<CardDetails />}></Route>
+
+        <Route path="*" element={<ErrorPage />}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
