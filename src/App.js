@@ -7,6 +7,8 @@ import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import Product from "./Pages/Product/Product";
 import Register from "./Pages/Register/Register";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Blog from "./Pages/Blog/Blog";
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path="/register" element={<Register />}></Route>
         <Route path="/checkout" element={<Checkout />}></Route>
         <Route path="/product" element={<Product />}></Route>
+        <Route path="/blog" element={<Blog />}></Route>
       </Routes>
     </div>
   );
