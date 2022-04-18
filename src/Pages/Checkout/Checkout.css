@@ -1,0 +1,12 @@
+.card_image{
+ 
+    display: flex;
+    grid-gap: 20px;
+}
+.card_image img{
+    width: 40px;
+    height: 40px;
+}
+.card_image button{
+    padding: 0px 20px;
+}

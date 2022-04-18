@@ -12,6 +12,7 @@ import Blog from "./Pages/Blog/Blog";
 import ErrorPage from "./Pages/ErrorPage";
 import Footer from "./components/Footer/Footer";
 import CardDetails from "./components/CardCompo/CardDetails";
+import RequireAuth from "./components/RequireAuth";
 
 function App() {
   return (
@@ -23,7 +24,11 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
-        <Route path="/checkout" element={<Checkout />}></Route>
+        <Route path="/checkout" element={
+          <RequireAuth>
+            <Checkout />
+          </RequireAuth>
+        }></Route>
         <Route path="/product" element={<Product />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
 
