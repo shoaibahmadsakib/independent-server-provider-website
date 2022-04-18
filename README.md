@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project Name is [Photography zone](https://photographer-website-6a378.web.app).
+This project Name is [Photography zone](https://photographer-website-6a378.web.app/).
 
 ## Available Scripts
 

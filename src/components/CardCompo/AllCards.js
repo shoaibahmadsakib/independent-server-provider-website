@@ -25,9 +25,9 @@ const AllCards = (props) => {
         <Card.Footer>
           <p>price: {price}</p>
         </Card.Footer>
-        <Link to={"/card/" + id}>Show details</Link>
+        <Link to="/checkout" className="btn btn-primary">Show details</Link>
        
-          <button onClick={props.handleAddtoCart}>Add to cart </button>
+         
        
       </Card>
     </>
